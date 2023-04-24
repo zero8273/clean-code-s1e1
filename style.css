@@ -129,7 +129,7 @@
 }
 
 .task-list__item >    [type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .btn.delete .btn-icon {
@@ -144,18 +144,18 @@
 
 /* Completed */
 .task-list#completed-tasks .task-lable {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-list .task-list__item [type="text"] {
-  display: none
+  display: none;
 }
 
 .task-list .task-list__item.edit-mode [type="text"] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-list .task-list__item.edit-mode .task-lable {
