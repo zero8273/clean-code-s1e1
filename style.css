@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header .header-img {
+.header .header__img {
   width: 100%;
 }
 
-.header .more-inf {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -133,18 +133,18 @@
   width: 226px;
 }
 
-.btn.delete .btn-icon {
+.btn.btn_delete .btn-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.delete .btn-icon:hover {
+.btn.btn_delete .btn-icon:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.task-list#completed-tasks .task-lable {
+.task-list.task-list_completed .task-lable {
   text-decoration: line-through;
   color: #888;
 }
@@ -154,11 +154,11 @@
   display: none;
 }
 
-.task-list .task-list__item.edit-mode [type="text"] {
+.task-list .task-list__item.task-list__item_edit-mode [type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.task-list .task-list__item.edit-mode .task-lable {
+.task-list .task-list__item.task-list__item_edit-mode .task-lable {
   display: none;
 }
