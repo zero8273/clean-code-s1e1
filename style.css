@@ -22,7 +22,8 @@
 
 @media (max-width:768px) {
 
-.header { text-align: center;
+.header { 
+  text-align: center;
 }
 
 }
@@ -49,7 +50,8 @@
   padding: 0px;
 }
 
-.task-list__item, .title {
+.task-list__item,
+.title {
   list-style: none;
 }
 
@@ -111,7 +113,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,7 +129,7 @@
   width: 226px;
 }
 
-.task-list__item >    [type="text"] {
+.task-list__item >[type="text"] {
   width: 226px;
 }
 
